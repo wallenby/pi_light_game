@@ -3,7 +3,11 @@ Simple LED game for the Raspberry Pi.
 
 
 ## About
-The game is similar to arcade game; Stacker, but with some changes here and there. 
+The game is similar to the arcade game Stacker, but with some changes. 
+
+There's no visual stacking, the stacking is more so done with points. 
+
+There are also lives, whereas the original Stacker game only gives you one chance. (I believe)
 
 
 ## The Game
@@ -14,7 +18,7 @@ The game includes just a few simple items to function:
 
 - A button to press when the middle LED is lit. (More on that later)
 
-- 3 LEDs to the side of the game which keep track of the number of lives still left by the user. 
+- 3 LEDs to the side of the game which keep track of the number of lives.
 
 - 5 LEDs for the actual game (however, more can be added if desired). 
 
@@ -23,7 +27,7 @@ The game includes just a few simple items to function:
 The 5 Game LEDs flash one at a time, starting from left-to-right, until it has flashed all the way to right-most LED. Once it has reached the right-most LED, the LEDs starting flashing, again, one by one all the way to the left. This is repeated indefinately, or until the user presses the button. The rate at which the LEDs change increases as the user accumelates more points.
 
 
-#### When to Press the Button
+### When to Press the Button
 
 The button has to be pressed by the player when the middle LED is lit. If the player manages to do this, then they get a point and the rate at which the LEDs change from one to the next increases. 
 
