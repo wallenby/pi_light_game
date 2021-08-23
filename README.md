@@ -2,10 +2,11 @@
 Simple LED game for the Raspberry Pi.
 
 
-### The Game
+## About
 The game is similar to arcade game; Stacker, but with some changes here and there.
-<br 
-    />
+
+
+## The Game
 
 The game includes just a few simple items to function:
 
