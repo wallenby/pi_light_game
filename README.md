@@ -1,12 +1,11 @@
-# Raspberry Pi LED Game
-Simple LED based game for the Raspberry Pi.
+# Raspberry Pi Stacker LED Game
+Simple LED game for the Raspberry Pi.
 
-## About
-This repo includes a simple game for the Raspberry Pi
 
-## The Game
-The game is similar to Stacker but with some changes here and there.
-
+### The Game
+The game is similar to arcade game; Stacker, but with some changes here and there.
+<br 
+    />
 
 The game includes just a few simple items to function:
 
