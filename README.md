@@ -34,7 +34,7 @@ The button has to be pressed by the player when the middle LED is lit (in this c
 
 #### Lives
 
-The player will start with 3 lives, hence the 3 Lives LEDs. These decrease as the player looses lives, and if the player loses them all and has 0 lives left, then the game is over. If the player presses the button at the wrong time and still has 1 or more lives left, then they get to try again at the same level they were last at.
+The player will start with 3 lives, hence the 3 Lives LEDs. These decrease as the player loses lives, and if the player has 0 lives left, then the game is over. If the player presses the button at the wrong time and still has 1 or more lives left, then they get to try again at the same level they were last at.
 
 #### Starting Over
 
