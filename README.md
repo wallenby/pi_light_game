@@ -12,6 +12,16 @@ There are also lives in the game instead of either missing the stack completely,
 
 ## The Game
 
+### Rules
+
+The rules of the game are simple. 
+
+Press the button when the middle LED is lit.
+
+That's it!
+
+Miss the LED, lose a life. If all of the lives have been lost, then GAME OVER. You can start again by pressing the button again and everything will be reset.
+
 ### Items
 
 The game includes just a few simple items to function:
