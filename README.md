@@ -16,11 +16,11 @@ There are also lives in the game instead of either missing the stack completely,
 
 The game includes just a few simple items to function:
 
-- A button to press when the middle LED is lit. (More on that later)
-
 - 3 LEDs to the side of the game which keep track of the number of lives left. (We'll call these the Lives LEDs)
 
 - 5 LEDs for the actual game (however, more can be added if desired, but there has to be an *odd* amount!). (We'll call these the Game LEDs)
+
+- A button to press when the middle Game LED is lit.
 
 ### Functionality
 
