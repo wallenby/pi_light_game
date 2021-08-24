@@ -16,9 +16,9 @@ There are also lives in the game instead of either missing the stack completely,
 
 The rules of the game are simple:
 
-- Press the button when the middle LED is lit.
+- Press the button when the middle LED is lit. See how high you can score! 
 
-- Miss the LED, lose a life. If all of the lives have been lost, then GAME OVER. You can start again by pressing the button again and everything will be reset.
+- Miss the LED, lose a life. If all of the lives have been lost, then GAME OVER!
 
 That's it!
 
