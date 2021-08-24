@@ -18,25 +18,27 @@ The game includes just a few simple items to function:
 
 - A button to press when the middle LED is lit. (More on that later)
 
-- 3 LEDs to the side of the game which keep track of the number of lives. (We'll call these the Lives LEDs)
+- 3 LEDs to the side of the game which keep track of the number of lives left. (We'll call these the Lives LEDs)
 
 - 5 LEDs for the actual game (however, more can be added if desired, but there has to be an *odd* amount!). (We'll call these the Game LEDs)
 
 ### Functionality
 
-The Game LEDs flash one at a time, starting from left-to-right, until it has flashed all the way to right-most LED. Once it has reached the right-most LED, the LEDs start flashing, again, one by one all the way to the left. This is repeated indefinitely, or until the user presses the button. The rate at which the LEDs change increases as the user accumelates more points.
+##### Flashing LEDs
 
+The Game LEDs flash one at a time, starting from left-to-right, until it has flashed all the way to right-most LED. Once it has reached the right-most LED, the LEDs start flashing, again, one by one all the way to the left. This is repeated indefinitely, or until the user presses the button. The rate at which the LEDs change increases as the user accumulates more points.
 
-### When to Press the Button
+##### When to Press the Button
 
-The button has to be pressed by the player when the middle LED is lit. If the player manages to do this, then they get a point and the rate at which the LEDs change  increases. 
+The button has to be pressed by the player when the middle LED is lit (in this case, when LED #3 out 5 is lit). If the player manages to do this, then they get a point and the rate at which the LEDs switch from one to the next increases. If the player presses the button when the middle LED is not lit, then they lose a life.
 
-If the player presses the button when the middle LED is not lit, then they lose a life. If the player still has lives, then they get to try again at the same level they were last at. If they run out of lives, then the game ends and the player can press the same button used for the game to start over.
+##### Lives
 
+The player will start with 3 lives, hence the 3 Lives LEDs. These decrease as the player looses lives, and if the player loses them all and has 0 lives left, then the game is over. If the player presses the button at the wrong time and still has 1 or more lives left, then they get to try again at the same level they were last at. If miss again and they've run out of lives, then the game ends. 
 
-Simple!
+##### Starting Over
 
-
+The player can press the same button used for the game to start over. This will reset their lives count and score, and the rate of change of the game LEDs will return to it's starting rate.
 
 
 
