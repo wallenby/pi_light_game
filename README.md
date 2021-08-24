@@ -7,7 +7,7 @@ The game is similar to the arcade game Stacker, but with some changes.
 
 There's no visual stacking, the stacking is more so done with points. 
 
-There are also lives, whereas the original Stacker game only gives you one chance. (I believe)
+There are also lives in the game instead of either missing the stack completely, landing the block partly or landing it right in the middle. 
 
 
 ## The Game
