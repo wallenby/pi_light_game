@@ -20,7 +20,7 @@ The rules of the game are simple:
 
 - Miss the LED, lose a life. If all of the lives have been lost, then GAME OVER!
 
-That's it!
+
 
 ### Items
 
@@ -49,11 +49,3 @@ The player will start with 3 lives, hence the 3 Lives LEDs. These decrease as th
 #### Starting Over
 
 The player can press the same button used for the game to start over. This will reset their lives counter, their score, as well as the rate of change of the game LEDs.
-
-
-
-That's it!
-
-
-
-
