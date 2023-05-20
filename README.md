@@ -2,6 +2,8 @@
 Simple LED game for the Raspberry Pi.
 
 ![IMG_6857](https://github.com/wallenby/pi-LED-game/assets/83599857/84801b08-bed9-493a-a2f0-4c91ec75c09e)
+![IMG_6858](https://github.com/wallenby/stacker_pi_game/assets/83599857/4bcf62c6-9668-4fcd-9370-2481a0ec0b5c)
+
 
 ## About
 The game is similar to the arcade game Stacker, but with some changes. 
